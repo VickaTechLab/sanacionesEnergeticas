@@ -187,3 +187,65 @@ iframe{
     justify-content: center;
     gap: 15px;
  }
+
+ 
+/* circulos */
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+}
+
+.circle1{
+    background-color: gray;
+    transition: all 2s ease;
+}
+
+.circle2{
+    background-color: indigo;
+    transition: all 2s ease;
+}
+
+.circle3{
+    background-color: blue;
+    transition: all 2s ease;
+}
+
+.circle4{
+    background-color: green;
+    transition: all 2s ease;
+}
+
+.circle5{
+    background-color: yellow;
+    transition: all 2s ease;
+}
+
+.circle6{
+    background-color: orangered;
+    transition: all 2s ease;
+}
+
+.circle7{
+    background-color: red;
+    transition: all 2s ease;
+}
+
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4,
+.container-circle:hover .circle5,
+.container-circle:hover .circle6,
+.container-circle:hover .circle7{
+    transform: translateX(40px);
+}
+
+.formulario{
+    font-family:'Quicksand', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
