@@ -5,22 +5,22 @@
     margin: 0;
 }
 
+
 header{
     background-color: #9575CD;
-    height: 100px;
-    padding: 20px;
+    height: 160px;
     margin-top: 0;
     position: sticky;
     top: 0;
-    color: #311B92;
+    color: #311B92 !important;
 }
 
 footer{
     background-color: #9575CD;
-    height: 80px;
+    height: 100px;
     padding: 10px;
     margin-bottom: 0;
-    color: #311B92;
+    color: #311B92 !important;
 }
 
 nav ul li{
@@ -95,18 +95,22 @@ ul li{
 }
 
 img{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-decoration{
     border-radius: 1cm;
     border: 4px solid #9575CD;
+    margin-left: 80px;
 }
 
 figcaption{
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
     font-weight: bolder;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 iframe{
@@ -192,13 +196,13 @@ iframe{
 /* circulos */
 .circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-left: 50px;
+    width: 10px;
+    height: 10px;
+    margin-left: 24px;
 }
 
 .circle1{
-    background-color: gray;
+    background-color: blueviolet;
     transition: all 2s ease;
 }
 
@@ -232,13 +236,19 @@ iframe{
     transition: all 2s ease;
 }
 
+.container-circle{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
 .container-circle:hover .circle2,
 .container-circle:hover .circle3,
 .container-circle:hover .circle4,
 .container-circle:hover .circle5,
 .container-circle:hover .circle6,
 .container-circle:hover .circle7{
-    transform: translateX(40px);
+    transform: translateX(25px);
 }
 
 .formulario{
@@ -248,4 +258,14 @@ iframe{
     margin-right: 60px;
     margin-top: 10px;
     margin-left: 60px;
+}
+
+
+/* Bootstrap*/
+
+.color-header-footer{
+    background-color: #9575CD;
+}
+.color-font-header-footer{
+    color: #311B92 !important;
 }
