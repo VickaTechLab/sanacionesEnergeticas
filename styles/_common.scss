@@ -1,0 +1,40 @@
+header{
+    height: 120px;
+    margin-top: 0;
+}
+
+footer{
+    background-color: $colorlila;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 0;
+    color: $colorazul !important;
+}
+
+nav{
+    ul{
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: $colorazul !important;
+            }
+        }
+    }
+} 
+
+.color-header-footer{
+    background-color: $colorlila;
+}
+.color-font-header-footer{
+    color: #311B92;
+}
+
+.navbar-logo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #311B92 !important;
+}

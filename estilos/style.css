@@ -1,216 +1,234 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+header {
+  height: 120px;
+  margin-top: 0;
 }
 
-header{
-    height: 120px;
-    margin-top: 0;
+footer {
+  background-color: #9575CD;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 0;
+  color: #311B92 !important;
 }
 
-footer{
-    background-color: #9575CD;
-    height: 100px;
-    padding: 10px;
-    margin-bottom: 0;
-    color: #311B92 !important;
+nav ul li {
+  list-style-type: none;
 }
 
-nav ul li{
-    list-style-type: none;
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #311B92 !important;
 }
 
-nav ul li a{
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #311B92 !important;
+.color-header-footer {
+  background-color: #9575CD;
 }
 
-h1{
-    font-family:'Quicksand', sans-serif;
-    font-size: 32px;
-    padding: 10px;
+.color-font-header-footer {
+  color: #311B92;
 }
 
-h2{
-    font-family:'Quicksand', sans-serif;
-    font-size: 24px;
-    padding: 10px;
+.navbar-logo {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #311B92 !important;
 }
 
-h3{
-    font-family:'Quicksand', sans-serif;
-    font-size: 20px;
-}
-
-h4{
-    font-family:'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-h5{
-    font-family:'Quicksand', sans-serif;
-    font-size: 12px;
-}
-
-p{
-    font-family:'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px;
-}
-
-ul li{
-    font-family: 'Quicksand', sans-serif;
-    list-style-type: circle;
-}
-
-img{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.img-decoration{
-    border-radius: 1cm;
-    border: 4px solid #9575CD;
-    margin-left: 80px;
-}
-
-figcaption{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 60px;
-}
-
-iframe{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 60px;
-}
-
-.lista{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    padding: 10px;
-}
-
-/* Grids */
-
-.grilla{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 160px 1fr 1fr 100px;
-    grid-template-areas: 
-        "logo header header header"
-        "article article article article"
-        "article article article article"
-        "footer footer footer footer"
-        ;
-
-}
-
-
-
-.article-grid{
-    grid-area: article;
- }
-
-.article{
-     border: 5px solid #311B92;
-     width: 400px;
-     height: 300px;
-     margin-top: 15px;
- }
- 
-.hijo{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    height: 1100px;
-    justify-content: center;
-    gap: 15px;
-}
-
- 
 /* circulos */
-.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7{
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin-left: 24px;
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7 {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 24px;
 }
-.circle1{
-    background-color: blueviolet;
-    transition: all 2s ease;
+
+.circle1 {
+  background-color: blueviolet;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.circle2{
-    background-color: indigo;
-    transition: all 2s ease;
+
+.circle2 {
+  background-color: indigo;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.circle3{
-    background-color: blue;
-    transition: all 2s ease;
+
+.circle3 {
+  background-color: blue;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.circle4{
-    background-color: green;
-    transition: all 2s ease;
+
+.circle4 {
+  background-color: green;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.circle5{
-    background-color: yellow;
-    transition: all 2s ease;
+
+.circle5 {
+  background-color: yellow;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.circle6{
-    background-color: orangered;
-    transition: all 2s ease;
+
+.circle6 {
+  background-color: orangered;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.circle7{
-    background-color: red;
-    transition: all 2s ease;
+
+.circle7 {
+  background-color: red;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
 }
-.container-circle{
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-bottom: 10px;
-    margin-top: 30px;
+
+.container-circle {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
+
 .container-circle:hover .circle1,
 .container-circle:hover .circle2,
 .container-circle:hover .circle3,
 .container-circle:hover .circle4,
 .container-circle:hover .circle5,
 .container-circle:hover .circle6,
-.container-circle:hover .circle7{
-    transform: translateX(25px);
+.container-circle:hover .circle7 {
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
 }
 
-.formulario{
-    font-family:'Quicksand', sans-serif;
-    font-size: 16px;
-    padding: 20px;
-    margin-right: 60px;
-    margin-top: 10px;
-    margin-left: 60px;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-
-/* Bootstrap*/
-
-.color-header-footer{
-    background-color: #9575CD;
-}
-.color-font-header-footer{
-    color: #311B92;
+ul li {
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: circle;
 }
 
-.navbar-logo{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    color: #311B92 !important;
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  padding: 10px;
 }
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-decoration {
+  border-radius: 1cm;
+  border: 4px solid #9575CD;
+  margin-left: 80px;
+}
+
+figcaption {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 60px;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.lista {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Grids */
+.grilla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 160px 1fr 1fr 100px;
+      grid-template-rows: 160px 1fr 1fr 100px;
+      grid-template-areas: "logo header header header" "article article article article" "article article article article" "footer footer footer footer";
+}
+
+.article-grid {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: article;
+}
+
+.article {
+  border: 5px solid #311B92;
+  width: 400px;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.hijo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  height: 1100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+.formulario {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  margin-right: 60px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+/*# sourceMappingURL=style.css.map */
