@@ -1,0 +1,28 @@
+$tipo:(
+      "online": $colorlima,
+      "presencial": $coloramarillo,
+      "for-online": $colorverdeclaro,
+      "for-presencial": $colorverde,
+);
+@each $name, $value in $tipo {
+    .tipo-#{$name} {
+        background-color: $value;
+    }
+};
+
+.actividades{
+    img{
+        max-height: 260px;
+        max-width: 380px;
+    }
+}
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.bg-actividades{
+    @include sizes (380px, 280px);
+    background-color: $colorgrisclaro;
+}

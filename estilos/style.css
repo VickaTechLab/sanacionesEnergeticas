@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
 header {
   height: 120px;
   margin-top: 0;
@@ -6,7 +11,7 @@ header {
 
 footer {
   background-color: #9575CD;
-  height: 100px;
+  height: 200px;
   padding: 10px;
   margin-bottom: 0;
   color: #311B92 !important;
@@ -36,6 +41,29 @@ nav ul li a {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   color: #311B92 !important;
+}
+
+.redes a {
+  color: #311B92;
+}
+
+.titulo, .titulo-primario, .titulo-secundario, .titulo-subtitulo {
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+  font-size: 32px;
+}
+
+.titulo-primario {
+  font-weight: bolder;
+}
+
+.titulo-secundario {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.titulo-subtitulo {
+  font-size: 24px;
 }
 
 /* circulos */
@@ -106,9 +134,36 @@ nav ul li a {
           transform: translateX(25px);
 }
 
-* {
-  padding: 0;
-  margin: 0;
+.home img {
+  max-height: 533px;
+  max-width: 400px;
+}
+
+.tipo-online {
+  background-color: #EEFF41;
+}
+
+.tipo-presencial {
+  background-color: #FFD600;
+}
+
+.tipo-for-online {
+  background-color: #69F0AE;
+}
+
+.tipo-for-presencial {
+  background-color: #00C853;
+}
+
+.actividades img {
+  max-height: 260px;
+  max-width: 380px;
+}
+
+.bg-actividades {
+  height: 280px;
+  width: 380px;
+  background-color: #EEEEEE;
 }
 
 ul li {
@@ -131,12 +186,13 @@ h2 {
 h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
+  font-weight: bolder;
 }
 
 h4 {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 h5 {
