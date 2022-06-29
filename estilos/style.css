@@ -175,18 +175,37 @@ nav ul li a {
 
 .tipo-online {
   background-color: #EEFF41;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 10px;
 }
 
 .tipo-presencial {
   background-color: #FFD600;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 10px;
 }
 
 .tipo-for-online {
   background-color: #69F0AE;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 10px;
 }
 
 .tipo-for-presencial {
   background-color: #00C853;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 10px;
+}
+
+.tipo-otro {
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 10px;
 }
 
 .actividades img {
@@ -198,6 +217,7 @@ nav ul li a {
   height: 280px;
   width: 380px;
   background-color: #EEEEEE;
+  border-radius: 5px;
 }
 
 .articulos img {
@@ -309,5 +329,21 @@ iframe {
   margin-right: 60px;
   margin-top: 10px;
   margin-left: 60px;
+}
+
+.btn-primary-custom {
+  height: 50px;
+  background-color: orangered;
+  border-color: orangered;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn-primary-custom:hover {
+  color: white;
+  background-color: orangered;
+  border-color: orange;
+  border-width: 5px;
+  font-family: 'Quicksand', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

@@ -102,5 +102,18 @@ iframe{
     margin-left: 60px;
 }
 
+.btn-primary-custom{
+    height: 50px;
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
 
-
+.btn-primary-custom:hover {
+    color: white;
+    background-color: orangered;
+    border-color: orange;
+    border-width: 5px;
+    font-family: 'Quicksand', sans-serif;
+}

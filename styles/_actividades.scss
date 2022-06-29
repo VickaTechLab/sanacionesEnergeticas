@@ -3,10 +3,14 @@ $tipo:(
       "presencial": $coloramarillo,
       "for-online": $colorverdeclaro,
       "for-presencial": $colorverde,
+      "otro": $colorgrisclaro,
 );
 @each $name, $value in $tipo {
     .tipo-#{$name} {
         background-color: $value;
+        border-radius: 5px;
+        margin: 1.5rem;
+        padding: 10px;
     }
 };
 
@@ -25,4 +29,5 @@ $tipo:(
 .bg-actividades{
     @include sizes (380px, 280px);
     background-color: $colorgrisclaro;
+    border-radius: 5px;
 }
